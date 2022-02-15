@@ -165,6 +165,6 @@ if (port == null || port == "") {
   port = 3000;
 }
 
-app.listen(prototype, function() {
+app.listen(port, function() {
   console.log("Server started successfully!);
 });
